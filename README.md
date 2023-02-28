@@ -1,4 +1,11 @@
 # IoT and 5G Wireless Networks
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/107106993/221849229-0d6acf73-28bc-41ce-9041-74e54fdbc75a.png" width="300">
+  
+  <em>Figure 1: Wireless packet scheduler transmitting data simultaneously to three users over three (frequency) channels.</em>
+</p>
+
+
 
 This project contains the implementation of algorithms for deriving optimal routes between sensors in an IoT network, as well as designing optimal packet schedulers for 5G wireless networks. The algorithms implemented in this project include:
 
@@ -9,6 +16,7 @@ This project contains the implementation of algorithms for deriving optimal rout
 - An implementation of branch and bound algorithm
 
 ## Introduction
+
 
 Internet of Things (IoT) is characterised by the deployment of a large amount of connected objects. These objects are autonomous devices that use sensors to monitor their environment and communicate through a wireless radio channel. When these sensors are not powerful, they cannot communicate over a long distance, so that additional intermediate relay nodes may be required to connect them together. Sensors can themselves route the messages from other sensors or relays. In this project, we derive the optimal routes between sensors by using the notion of Steiner tree in graph theory.
 
